@@ -1,0 +1,30 @@
+{
+  "name": "sugarlabsgci2017",
+  "version": "1.0.0",
+  "description": "Task completion project for gCI 2017",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+     "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KULDEEPSCIENTIST/sugarlabsgci2017.git"
+  },
+  "author": "“KULDEEPSCIENTIST” <“kuldeepprasad64@gmail.com”> (“https://github.com/KULDEEPSCIENTIST”)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KULDEEPSCIENTIST/sugarlabsgci2017/issues"
+  },
+  "homepage": "https://github.com/KULDEEPSCIENTIST/sugarlabsgci2017#readme",
+  "devDependencies": {
+    "@types/pluralize": "0.0.28",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "pluralize": "^7.0.0"
+  }
+}
